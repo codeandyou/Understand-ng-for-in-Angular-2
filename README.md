@@ -143,7 +143,10 @@ Get collection index in ng-for Angular 2
             <br> <b> Name</b> - {{emp.name}} </p>
       </li>
    </ul>
-</div>```
+</div>
+```
+
+http://www.codeandyou.com/2015/10/understand-ng-for-in-angular-2.html
 
 
 
