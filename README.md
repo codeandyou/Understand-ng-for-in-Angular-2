@@ -1,5 +1,7 @@
 # Understand ng-for in Angular 2
 
+http://www.codeandyou.com/2015/10/understand-ng-for-in-angular-2.html
+
 NgFor directive is use for iterate items in a templates. NgFor run as a loop in the collection and bind data into html template. 
 
 Its work similar to ng-repeat work on Angular 1.x.
@@ -146,7 +148,7 @@ Get collection index in ng-for Angular 2
 </div>
 ```
 
-http://www.codeandyou.com/2015/10/understand-ng-for-in-angular-2.html
+
 
 
 
