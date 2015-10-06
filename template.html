@@ -1,0 +1,34 @@
+<hr>
+<h1> 
+Basic use of ng-for in Angular 2
+ </h1>
+<div>
+   <ul type="none">
+      <li template="ng-for #emp of employees; #i = index">
+         <p>{{emp.name}}</p>
+      </li>
+   </ul>
+</div>
+<h1> 
+Use of ng-for in Angular 2 in short hand
+ </h1>
+<div>
+   <ul type="none">
+      <li *ng-for="#emp of employees">
+         <p> <b> Name</b> - {{emp.name}} ,<b>  ID </b> </b>- {{emp.id}} , <b>    Employee Code</b> - {{emp.empCode}}
+            </p>
+      </li>
+   </ul>
+</div>
+<hr>
+<h1> 
+Get collection index in ng-for Angular 2
+ </h1>
+<div>
+   <ul type="none">
+      <li *ng-for="#emp of employees; #i = index">
+         <p> <b>Index  - {{i}}</b>
+            <br> <b> Name</b> - {{emp.name}} </p>
+      </li>
+   </ul>
+</div>
